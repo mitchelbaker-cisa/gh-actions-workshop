@@ -2,7 +2,7 @@
 # - Runs upon reopened pull requests that include changes to .md files
 # - Uses macOS as the runner environment
 
-name: Hello USDC
+name: My first workflow!
 
 on: 
 
