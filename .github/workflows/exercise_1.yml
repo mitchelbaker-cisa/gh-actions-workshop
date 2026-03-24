@@ -1,0 +1,15 @@
+# Fill in the blanks to create a workflow that:
+# - Runs upon reopened pull requests that include changes to .md files
+# - Uses macOS as the runner environment
+
+name: Hello USDC
+
+on: 
+
+jobs:
+    my-first-job:
+        runs-on:
+        steps:
+            - name: Run workflow
+              run: echo "You successfully ran your first workflow!"
+            
