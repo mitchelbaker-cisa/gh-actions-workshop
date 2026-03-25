@@ -2,4 +2,5 @@
 title: Request from SWE fellows!
 labels: usdc
 ---
-Hello from the SWE fellows!!!!
+
+Hi there, below is a request from the SWE fellows:
