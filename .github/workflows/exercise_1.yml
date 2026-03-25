@@ -26,5 +26,5 @@ jobs:
             - name: List changed markdown files
               run: |
                 echo "Markdown files changed in this PR:"
-                git diff --name-only origin/${{ github.base_ref }}...HEAD -- '**/*.md'
+                git diff --name-only origin/${{ github.base_ref }}...HEAD | grep '\.md$' || echo "(none found)"
             
