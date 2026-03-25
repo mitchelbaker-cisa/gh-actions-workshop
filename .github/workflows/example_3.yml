@@ -36,6 +36,9 @@ jobs:
         runs-on: ubuntu-latest
         needs: update-issue-template
         steps:
+            - name: Checkout repository
+              uses: actions/checkout@v6
+              
             - name: Create an issue using action
               uses: JasonEtco/create-an-issue@v2
               env:
